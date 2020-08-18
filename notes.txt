@@ -1,0 +1,13 @@
+TDD Principles
+
+  1) Define behaviors of end result program.
+
+  2) Write tests for the program.
+    => When you do a, expect b.
+    => Consider potential exceptions and errors.
+
+  3) Write code to make the tests pass.
+    => And ONLY the code needed to make tests pass.
+
+  4) Refactor code to follow DRY, SSOT, & other principles.
+    => Refactoring often involves repeating step 3.
