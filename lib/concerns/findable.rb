@@ -9,7 +9,7 @@ module Findable
   end
 
   def find_by_name(name)
-    self.all.select {|element| element.name == name}
+    self.all.detect {|element| element.name == name}
   end
 
 end
