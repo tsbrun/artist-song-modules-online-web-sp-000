@@ -17,3 +17,8 @@ Other Notes
   - When defining class methods in a module ( that will be extended to other classes ),
     the self keyword is omitted ( from the method name ).
     The extend keyword handles the responsibility of demarcating certain methods as belonging to classes.
+
+  - You use gsub on a string to replace part of it.
+      e.g, name.downcase.gsub(' ', '-')
+           => make a name lowercase
+           => replace single-blank space characters with an n-dash
