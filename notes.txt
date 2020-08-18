@@ -21,4 +21,4 @@ Other Notes
   - You use gsub on a string to replace part of it.
       e.g, name.downcase.gsub(' ', '-')
            => make a name lowercase
-           => replace single-blank space characters with an n-dash
+           => replace single-blank space characters with a hyphen
