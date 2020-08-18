@@ -11,3 +11,8 @@ TDD Principles
 
   4) Refactor code to follow DRY, SSOT, & other principles.
     => Refactoring often involves repeating step 3.
+
+Other Notes
+
+  - When defining class methods in a module ( that will be extended to other classes ),
+    the self keyword is omitted ( from the method name ).
