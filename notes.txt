@@ -22,3 +22,4 @@ Other Notes
       e.g, name.downcase.gsub(' ', '-')
            => make a name lowercase
            => replace single-blank space characters with a hyphen
+     - There are more ways to use it: https://www.rubyguides.com/2019/07/ruby-gsub-method/
