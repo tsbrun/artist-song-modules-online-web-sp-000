@@ -6,15 +6,15 @@ class Artist
   attr_accessor :name
   attr_reader :songs
 
-  @@artists = []
+  @@all = []
 
   def initialize
-    @@artists << self
+    @@all << self
     @songs = []
   end
 
   def self.all
-    @@artists
+    @@all
   end
 
   def add_song(song)
